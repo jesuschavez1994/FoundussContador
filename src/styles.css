@@ -1,0 +1,151 @@
+  /* ? ----- Cuenta Regresiva ----- */
+  #cuenta {
+	display: flex;
+	justify-content: center;
+}
+
+.orange{
+    color: #F09207;
+}
+
+.simply-section {
+	/* width: 180px;
+	height: 180px; */
+	margin: 0 5%; 
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.simply-section.simply-days-section div{width: 85px; text-align: center;}
+.simply-section.simply-hours-section div{width: 85px; text-align: center;}
+.simply-section.simply-minutes-section div{width: 85px; text-align: center;}
+.simply-section.simply-seconds-section div{width: 85px; text-align: center;}
+
+.simply-amount {
+	opacity: .8;
+    color: #494949;
+    line-height: 1.6em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+	font-size: 65px;
+    font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.simply-word {
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.white{color: white;}
+.black{color: black;}
+/* ? ---------------------------- */
+.family{font-family: 'Montserrat', sans-serif;}
+.family-300{font-family: 'Montserrat', sans-serif;font-weight: 300;}
+.family-400{font-family: 'Montserrat', sans-serif;font-weight: 400;}
+.family-500{font-family: 'Montserrat', sans-serif;font-weight: 500;}
+.family-600{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.family-700{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+
+.size-65{font-size: 65px;}
+.size-60{font-size: 60px;}
+.size-57{font-size: 57px;}
+.size-54{font-size: 54px;}
+.size-51{font-size: 51px;}
+.size-36{font-size: 36px;}
+.size-33{font-size: 33px;}
+.size-27{font-size: 27px;}
+.size-24{font-size: 24px;}
+.size-21{font-size: 21px;}
+.size-18{font-size: 18px;}
+.size-15{font-size: 15px;}
+.size-12{font-size: 12px;}
+.size-9{font-size: 9px;}
+.size-6{font-size: 6px;}
+.size-3{font-size: 3px;}
+
+.flex{display: flex;}
+.center{justify-content: center;align-content: center;}
+.items{align-items: center;}
+.column{flex-direction: column;}
+.space-around{justify-content: space-around;}
+
+.h2-title{
+	font-size: 50px;
+	color:black;
+	text-align: center;
+}
+
+.letter-spacing{
+    letter-spacing: 0px;
+}
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+@media(min-width:501px) and (max-width:3000px){
+    .phone-h2{
+        display: none;
+    }  
+}
+@media(min-width:350px) and (max-width:500px){
+    .order1{order:1;}
+    .order2{order:2;}
+    .h2-title{display: none;}
+    .family-700.size-65.pb-5{font-size: 38px; padding-bottom: 35% !important;}
+    .simply-amount{font-size: 40px;}
+    .simply-section {margin: 0 1%;}
+    .simply-word{font-size: 15px;}
+    .animated.fadeIn.img{width: 50%;}
+    .col-md-8.col-12.flex.items.space-around{flex-direction: column;}
+    .line-column{ display: none;}
+    .card.naranja-fondo.flex.items{width: 75%;}
+    .card-deck.pt-5.pb-4{display: flex;justify-content: center;align-items: center;flex-direction: column;}
+}
+
+.white{
+    color: white;
+}
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1500px !important;
+    }
+}
+
+

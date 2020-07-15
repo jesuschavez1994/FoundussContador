@@ -1,0 +1,13 @@
+.background-black{
+    background: rgb(31, 31, 31);
+}
+
+.row.pt-3.pb-3.padding{
+    padding-left:4%;
+}
+
+.line-column{
+    width: 1px; 
+    height:40px; 
+    background:rgb(168, 168, 168);
+}

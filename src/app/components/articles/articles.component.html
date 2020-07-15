@@ -1,0 +1,32 @@
+<section class="naranja-fondo animated fadeIn" style="position: relative;">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-md-12 col-lg-6 col-xl-6">
+                <span class="letter-spacing family-300 white size-24">SI ERES FARMACIA</span>
+                <h2 class="family-700 size-36 pt-3 white">
+                    ¡Cargar tu inventario<br> manualmente a la <br> web es cosa del pasado!
+                </h2>
+                <span class="family-300 white size-21">Te ofrecemos un <span class="family-700 black" style="font-weight: bold;">BANCO DE PRODUCTOS</span></span>
+                
+                <div class="card-deck pt-5 pb-4">
+                    <div class="card naranja-fondo flex items" style="border:none" *ngFor="let item of pasos">
+                        <div class="card-header bg-transparent" style="border:none; width:100%">
+                            <span class="green family-700 white flex center">{{item.pasos}}</span>
+                        </div>
+                      <img src="{{item.img}}" class="card-img-top pasos-img" alt="...">
+                      <div class="card-body">
+                        <p class="text-center family-500">{{item.text}}</p>
+                      </div>
+                    </div>
+                </div>
+                
+                  
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-6 pt-3 cajas" style="position: absolute;top:-240px;;right: -18%;">
+                <img class="cajas" src="../../../assets/images/Cajas chavez.svg" width="65%">
+            </div>
+        </div>
+    </div>
+</section>
+
+

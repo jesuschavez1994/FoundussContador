@@ -1,0 +1,53 @@
+.naranja{
+    color: #E18919;
+}
+.white{color:white}
+.size-60{font-size: 60px;}
+.size-50{font-size: 50px;}
+.size-45{font-size: 45px;}
+.size-40{font-size: 40px;}
+.size-30{font-size: 30px;}
+.size-35{font-size: 35px;}
+.size-25{font-size: 25px;}
+.size-20{font-size: 20px;}
+.size-15{font-size: 15px;}
+.size-10{font-size: 10px;}
+.size-5{font-size: 5px;}
+
+.family{font-family: 'Montserrat', sans-serif;}
+.family-300{font-family: 'Montserrat', sans-serif;font-weight: 300;}
+.family-400{font-family: 'Montserrat', sans-serif;font-weight: 400;}
+.family-500{font-family: 'Montserrat', sans-serif;font-weight: 500;}
+.family-600{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+.family-700{font-family: 'Montserrat', sans-serif;font-weight: 600;}
+
+.padding-left-20{
+    padding-left: 25%;
+}
+.paddin-rigth{
+    padding-right: 10%;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.animated.fadeIn.img{
+    width:15%;
+}
+@media(min-width:300px) and (max-width:500px){
+    .padding-left-20{
+        padding-left:5%;
+        padding-bottom: 5%;
+    }
+    .paddin-rigth{
+        padding-right:0%;
+    }
+    .size-60{
+        font-size: 28px;
+    }
+    .animated.fadeIn.img{
+        width:40%;
+    }
+}
